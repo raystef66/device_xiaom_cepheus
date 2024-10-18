@@ -190,9 +190,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.cepheus \
+    android.hardware.biometrics.fingerprint-service.xiaomi \
     android.hardware.biometrics.fingerprint@2.3.vendor \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
+    libudfpshandler
 
 
 PRODUCT_COPY_FILES += \
